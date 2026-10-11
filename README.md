@@ -10,7 +10,7 @@ Photo keepsake examples: https://common-thread-arcade.vercel.app/examples
 
 An event organizer creates a shared pattern, chooses a product, and distributes a guest link or QR code. Each guest adds a personal motif, generates two variations, selects a real product, and continues to Arcade checkout.
 
-The prototype supports one shared event and up to 30 guests. Guests do not need to provide a name or email address. Guest access is stored in the same browser; changing devices or clearing browser storage does not automatically restore it. Organizer management on the hosted site requires an access code.
+The hosted prototype supports separate events, each with up to 30 guests. Guests do not need to provide a name or email address. Guest access is stored in the same browser; changing devices or clearing browser storage does not automatically restore it. Organizers can create an event without a password. A private organizer token is saved in the creating browser. Guest links contain only the event ID and do not grant organizer access. The original submitted demo keeps its existing access code. Changing browsers or clearing storage does not restore the organizer token automatically.
 
 ## How Arcade is used
 
