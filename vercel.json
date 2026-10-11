@@ -1,0 +1,51 @@
+{
+  "framework": null,
+  "buildCommand": "npm run check",
+  "outputDirectory": "public",
+  "functions": {
+    "api/router.mjs": {
+      "maxDuration": 120
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/examples",
+      "destination": "/examples.html"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api/router"
+    },
+    {
+      "source": "/teacher",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/student",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; img-src 'self' https: data:; style-src 'self'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+        }
+      ]
+    }
+  ]
+}

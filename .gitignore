@@ -1,0 +1,13 @@
+.env
+.env.local
+.data/
+node_modules/
+artifacts/
+.vercel
+.env*
+.env.*.local
+!.env.example
+PREPARATION.md
+VENUE_PLAN.md
+DEMO.txt
+.DS_Store

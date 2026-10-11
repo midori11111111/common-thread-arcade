@@ -1,0 +1,20 @@
+{
+  "name": "common-thread",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check lib/cloud-api.mjs && node --check api/router.mjs && node --check public/examples.js && node --check lib/checkout.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.8.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

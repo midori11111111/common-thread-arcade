@@ -1,0 +1,78 @@
+{
+  "items": [
+    {
+      "id": "playful",
+      "name": "Cats and stars",
+      "description": "A playful frame with cats and stars.",
+      "patternId": "cmv4a92cj017glm10q5rxbage",
+      "photo": "/examples/playful-photo.jpg",
+      "pattern": "/examples/playful-pattern.jpg",
+      "productImage": "/examples/playful-photo-product.jpg",
+      "product": {
+        "productId": "db421315-931b-489b-9362-7c6add3a3849",
+        "title": "100% Cotton Lightweight Gauze Scarf, Embroidered Hem",
+        "unitPrice": {
+          "amount": "19.41",
+          "currency": "USD"
+        },
+        "selections": {
+          "fabric": "cotton",
+          "size": "26x26",
+          "hem_finish": "embroidered_hem"
+        },
+        "selectionLabel": "Cotton Lightweight Gauze • 26\" x 26\" • Embroidered Hem"
+      },
+      "includesPhoto": true
+    },
+    {
+      "id": "botanical",
+      "name": "Botanical",
+      "description": "Soft greens and small flowers.",
+      "patternId": "cmv4abb0b0183lm102nh5nevp",
+      "photo": "/examples/botanical-photo.jpg",
+      "pattern": "/examples/botanical-pattern.jpg",
+      "productImage": "/examples/botanical-photo-product.jpg",
+      "product": {
+        "productId": "f2165521-20c3-4139-ba2b-ed41a86390e5",
+        "title": "100% Cotton Lightweight Gauze Scarf, Embroidered Hem",
+        "unitPrice": {
+          "amount": "19.41",
+          "currency": "USD"
+        },
+        "selections": {
+          "fabric": "cotton",
+          "size": "26x26",
+          "hem_finish": "embroidered_hem"
+        },
+        "selectionLabel": "Cotton Lightweight Gauze • 26\" x 26\" • Embroidered Hem"
+      },
+      "includesPhoto": true
+    },
+    {
+      "id": "celebration",
+      "name": "Celebration",
+      "description": "Bright colors for a celebration.",
+      "patternId": "cmv49yes30151pb10f14gd5us",
+      "photo": "/examples/celebration-photo.jpg",
+      "pattern": "/examples/celebration-pattern.jpg",
+      "productImage": "/examples/celebration-photo-product.jpg",
+      "product": {
+        "productId": "900640f0-45f9-4392-8077-6b4174fa89a9",
+        "title": "100% Cotton Lightweight Gauze Scarf, Embroidered Hem",
+        "unitPrice": {
+          "amount": "19.41",
+          "currency": "USD"
+        },
+        "selections": {
+          "fabric": "cotton",
+          "size": "26x26",
+          "hem_finish": "embroidered_hem"
+        },
+        "selectionLabel": "Cotton Lightweight Gauze • 26\" x 26\" • Embroidered Hem"
+      },
+      "includesPhoto": true
+    }
+  ],
+  "source": "https://www.pexels.com/photo/high-school-students-group-photo-outdoors-32292152/",
+  "license": "https://www.pexels.com/license/"
+}
